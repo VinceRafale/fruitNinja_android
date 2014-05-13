@@ -1,0 +1,31 @@
+CS349 ASSIGNMENT 4 MARKING SCHEME
+MARKED BY:  diane.watson(@uwaterloo.ca)
+
+GUIDELINES
+The assignment needs to compile and run in order for the TA to mark it. If it doesn't compile, but the TA is able to get it working, you will only lose marks for the "Compiles and runs" section. If they cannot get it to compile, you receive zero for the assignment.
+
+MARKS
+Total: 99/100
+
+Compiles and Runs (5%)
+[5/5] Compiles and runs
+
+Basic Application (15%)
+[5/5] Basic elements are present: window with a titlebar, score and play area.
+[5/5] The score is displayed in the titlebar, and updates as fruit is sliced. A reasonable scoring mechanism is utilized.
+[5/5] Fruit, screen and game elements are reasonable for the screen resolution (i.e. NexusOne).
+
+Physics and Animation (30%)
+[10/10] Fruit is created off-screen and animated up from the bottom of the screen.
+[10/10] Fruit will rise up to roughly mid-screen, then descend and drop off-screen. This animation should be smooth. A simple animation is fine if it meets this basic objective.
+[5/5] Multiple pieces of fruit are shown and animate on the screen at the same time.
+[5/5] Performance is 'reasonable', game is playable in the AVD.
+
+Interaction (35%)
+[10/10] Dragging the mouse across a piece of fruit causes the fruit to be sliced. Failing to intersect the fruit will not slice anything or having any other effect. 
+[10/10] Slicing a fruit causes 2 new pieces of fruit to replace the original piece.
+[10/10] Fruit is sliced along the intersection line, and the shape and size of the resulting sub-pieces match the intersection.
+[5/5] If more than 5 pieces of fruit fall off the screen without being sliced, the game ends.
+
+Aesthetics & Gameplay (15%)
+[14/15] Additional marks for compelling gameplay, smooth interaction, additional interesting visual elements or features.
